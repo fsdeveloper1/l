@@ -1,0 +1,67 @@
+/*app.blade */
+body{ text-align:right; background-color:#e9eace; font-size:170%; }.navbar-header,.navbar-default{background: linear-gradient(#f0fff0,#c1cdc1);} #footer{  bottom:1px; background-color:#4c4c4c;max-width:100%; max-height:5px; position:sticky;}
+.control-label{float:right;} .panel-body{ padding-right:5%;padding-right:5%;background-color:#edefe0;}
+ @media screen and (min-width:765px) {.panel-body{padding:30px;}  .navbar{position:sticky; top:0;}}
+ @media screen and (max-width:764px) {.collapsed{position:absolute, top:0; z-index:7} }
+
+
+#app-navbar-collapse
+{
+  font-size: 100%;
+
+     -webkit-user-select: none; /* Safari 3.1+ */
+    -moz-user-select: none; /* Firefox 2+ */
+    -ms-user-select: none; /* IE 10+ */
+    user-select: none; /* Standard syntax */
+}
+
+@media screen and (min-width:765px) {
+    #b, #a {
+       float:right;
+}}
+#a:hover {
+    background-color: #00dbff;
+}
+#b:hover {
+    background-color: #00dbff;
+}
+#c:hover {
+    background-color: #00ffbd;
+}
+#d:hover {
+    background-color: #00ffbd;
+}
+
+
+/*welcome*/
+.card-body{border:solid 1.5px;background-color:#ffdab9; border-radius:15px 0px 0px  0px ; padding-right:3px;}
+.card-footer{a:hover{background-color:dark;}}
+/*fullregister*/
+input:not(#email):not( #password):not(#meliNumber):not(#phone):not(#postalcode):not(#birthdate) {
+  text-align: right;
+}
+textarea{
+	 text-align: right;
+}
+
+/*Auto close message*/
+@import "compass/css3";
+#k{font-size:150%; z-index:3;}
+body{
+padding: .8%;z-index:0;
+}
+
+/*im pre*/
+#blah{
+  max-width:110px; max-height:auto; border-radius:10% 0% 10%  0% ;border:solid 1.5px green;
+}
+#x[type=file]{
+padding:10px;
+background:#2d2d2d;}
+
+
+#j{border:solid 2.5px; font-size:110%; background:#D8D8D8;}
+#j{max-width:25%; max-height:auto; position:relative; float:right;}
+#img{max-width:30%}
+
+
